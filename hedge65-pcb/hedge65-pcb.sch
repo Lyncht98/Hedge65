@@ -1054,34 +1054,17 @@ Connection ~ 3600 1300
 Connection ~ 4050 1300
 Connection ~ 3600 1900
 Connection ~ 4050 1900
-Connection ~ 3600 2500
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX32
 U 1 1 6000346A
-P 3450 3150
-F 0 "MX32" H 3483 3359 39  0000 C CNN
-F 1 "MX-NoLED" H 3483 3300 20  0000 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2825 3125 60  0001 C CNN
-F 3 "" H 2825 3125 60  0001 C CNN
-	1    3450 3150
+P 4000 3150
+F 0 "MX32" H 4033 3359 39  0000 C CNN
+F 1 "MX-NoLED" H 4033 3300 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3375 3125 60  0001 C CNN
+F 3 "" H 3375 3125 60  0001 C CNN
+	1    4000 3150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Small D32
-U 1 1 60003470
-P 3350 3400
-F 0 "D32" V 3396 3330 50  0000 R CNN
-F 1 "D_Small" V 3305 3330 50  0000 R CNN
-F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 3350 3400 50  0001 C CNN
-F 3 "~" V 3350 3400 50  0001 C CNN
-	1    3350 3400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3350 3300 3400 3300
-Wire Wire Line
-	3600 2500 3600 3100
-Connection ~ 3350 3500
 Wire Wire Line
 	2900 1100 3350 1100
 Connection ~ 2900 1100
@@ -1094,8 +1077,6 @@ Connection ~ 2900 2300
 Wire Wire Line
 	2900 2900 3350 2900
 Connection ~ 2900 2900
-Wire Wire Line
-	2900 3500 3350 3500
 Connection ~ 2900 3500
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX37
@@ -1353,7 +1334,7 @@ $EndComp
 Wire Wire Line
 	4250 3300 4300 3300
 Wire Wire Line
-	4500 2500 4500 3100
+	4500 2500 4500 3000
 Connection ~ 4250 3500
 Wire Wire Line
 	3800 1100 4250 1100
@@ -2216,8 +2197,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 3500 2900 3500
 Wire Wire Line
-	3350 3500 4250 3500
-Wire Wire Line
 	4250 3500 5600 3500
 Wire Wire Line
 	6050 2900 6950 2900
@@ -2268,7 +2247,7 @@ U 1 1 603D54F6
 P 1300 5800
 F 0 "J1" H 1407 7067 50  0000 C CNN
 F 1 "USB_C_Receptacle" H 1407 6976 50  0000 C CNN
-F 2 "" H 1450 5800 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A_CircularHoles" H 1450 5800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1450 5800 50  0001 C CNN
 	1    1300 5800
 	1    0    0    -1  
@@ -2808,4 +2787,16 @@ Wire Wire Line
 Wire Wire Line
 	4650 4800 4350 4800
 Connection ~ 4350 4800
+Wire Wire Line
+	2900 3500 4250 3500
+Wire Wire Line
+	3950 3300 4250 3300
+Connection ~ 4250 3300
+Wire Wire Line
+	4150 3100 4150 3000
+Wire Wire Line
+	4150 3000 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 3100
 $EndSCHEMATC

@@ -1,2 +1,2 @@
 # Hedge65
- Creating the Hedge65 PCB
+Covid hobby of designing a keyboard PCB with through-hole components

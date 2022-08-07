@@ -1,2 +1,5 @@
 # Hedge65
-Covid hobby of designing a keyboard PCB with through-hole components
+
+Covid hobby #3: designing a keyboard PCB with through-hole components
+
+Not finished yet
